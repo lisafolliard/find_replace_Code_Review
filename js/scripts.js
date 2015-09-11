@@ -1,13 +1,13 @@
-var findReplace = function(sentence, word, replacement) {
-    return sentence.replace(word, replacement);
+var findReplace = function(sentence, wordToFind, replacementWord) {
+  return sentence.replace(new RegExp(wordToFind, 'g'), replacementWord);
 };
 
 $(document).ready(function() {
   $("form#find_replace").submit(function(event) {
     var sentence = ($("input#sentence").val());
-    var word = ($("input#word").val());
-    var replacement = ($("input#replacement").val());
-    var new_sentence = findReplace(sentence, word, replacement);
+    var wordToFind = ($("input#word").val());
+    var replacementWord = ($("input#replacement").val());
+    var new_sentence = findReplace(sentence, wordToFind, replacementWord);
 
     $(".new_sentence").text(new_sentence);
 
