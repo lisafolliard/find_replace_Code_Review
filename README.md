@@ -1,47 +1,28 @@
-# Band Tracker
+# Find and Replace
 
-##### A application to track bands and the venues where they've played, 8/28/2015
+##### Finds and replaces words in a string, 9/11/2015
 
 #### By Lisa Folliard
 
 ## Description
 
-Users can:
-
-  - Add, view, edit and delete bands
-
-  - Add venues
-
-  - Add venues to a band
-
-  - See all the venues where a band has played on the individual band page
+A simple JavaScript application that will find a word in string and replace it with another word. It will return a new string that includes the replacement word.
 
 ## Setup
 
-Clone this repository to your local system
+* $ git clone this repository
 
-Utilize ActiveRecord to get database up and running
-
-run the following commands in project folder
-
-$ rake db:create
-
-$ rake db:migrate
-
-$ ruby app.rb
-
-go to localhost:4567 in your browser to open webapp
+* launch the app by opening index.html in browser
 
 ## Technologies Used
 
-* Ruby
-* Sinatra
-* RSpec
-* Capybara
-* Postgres
-* HTML
-* CSS
-* Active Record
+* jquery-1.11.3.js
+
+* mocha.js
+
+* mocha.css
+
+* chai.js
 
 ### Legal
 
