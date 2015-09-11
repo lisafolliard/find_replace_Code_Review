@@ -1,12 +1,12 @@
 # Find and Replace
 
-##### Finds and replaces words in a string, 9/11/2015
+##### Finds and replaces words in a sentence, 9/11/2015
 
 #### By Lisa Folliard
 
 ## Description
 
-A simple JavaScript application that will find a word in string and replace it with another word. It will return a new string that includes the replacement word.
+A simple JavaScript application that allows a user to find all instances of a word in a sentence and replace with a new word. The program then returns an updated sentence.
 
 ## Setup
 
