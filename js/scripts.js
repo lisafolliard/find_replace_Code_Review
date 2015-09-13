@@ -3,13 +3,13 @@ var findReplace = function(sentence, wordToFind, replacementWord) {
 };
 
 $(document).ready(function() {
-  $("form#find_replace").submit(function(event) {
+  $("form#find-replace").submit(function(event) {
     var sentence = ($("input#sentence").val());
     var wordToFind = ($("input#word").val());
     var replacementWord = ($("input#replacement").val());
-    var new_sentence = findReplace(sentence, wordToFind, replacementWord);
+    var newSentence = findReplace(sentence, wordToFind, replacementWord);
 
-    $(".new_sentence").text(new_sentence);
+    $(".new-sentence").text(newSentence);
 
     $("#result").show();
     event.preventDefault();
