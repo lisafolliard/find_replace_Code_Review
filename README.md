@@ -6,7 +6,7 @@
 
 ## Description
 
-A simple JavaScript application that allows a user to find all instances of a word in a sentence and replace with a new word. The program then returns an updated sentence.
+A simple JavaScript application that allows a user to find all instances of a word in a sentence and replace with a new word. The program returns an updated sentence.
 
 ## Setup
 
